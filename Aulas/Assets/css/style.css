@@ -1,0 +1,241 @@
+/*Estilos index.html*/
+
+html,body{
+    background-color:  rgb(255, 248, 219);
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    text-decoration: none;
+}
+
+
+/*Estilo Nav bar*/
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: rgb(250, 159, 98);
+    box-shadow: 0 19px 38px rgba(0, 0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.nav .links .mainlink{
+    color: rgb(255, 0, 0);
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/*Estilo landing page*/
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10 vw;
+    height: 100vh;
+}
+
+.landingText h1{
+    font-size: 2vw;
+    margin-left: 15px;
+}
+
+.landingText p{
+    margin: 6px;
+    font-size: 20px;
+    opacity: 0.9;
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+.landingImage img{
+    width: 28vw;
+    margin-right: 20px;
+}
+
+/*Estilo video*/
+
+.video{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.videoText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.videoText h3{
+    text-align: center;
+    top: 30px;
+    position: relative;
+    justify-content: space-between;
+    
+}
+
+.videoText h5{
+    text-align: center;
+    top: 20px;
+    position: relative;
+    color: rgb(255, 241, 236);
+}
+
+.videoText{
+    background-color: rgb(241, 191, 116);
+    border-radius: 6%;
+    box-shadow: 0 19px 38px rgba(0, 0,0,0.30);
+    width: 500px;
+    height: 400px;
+}
+
+.videoText iframe{
+    flex-direction: row;
+    width: 500px;
+    height: 230px;
+    position: absolute;
+    top: 130px;
+    
+}
+
+/*Estilização info session*/
+
+.infoSection{
+    height: 600px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 370px;
+    width: 360px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0, 0,0.10), 0 10px 10px rgba(0,0, 0,0.10);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10%;
+}
+
+.infoCards .one .cardoneImg{
+    width: 180px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    
+}
+
+.infoCards .two .cardtwoImg{
+    width: 180px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+
+.infoCards .three .cardthreeImg{
+    width: 180px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color: rgb(248, 245, 85);
+    border-radius: 10%;
+}
+
+.cardbgtwo{
+    height: 150px;
+    background-color: #e07f2f;
+    border-radius: 10%;
+}
+
+.cardbgthree{
+    height: 150px;
+    background-color: rgb(250, 50, 50);
+    border-radius: 10%;
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent h2{
+    font-weight: 500;
+}
+
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ebebeb;
+    width: 15px;
+    height: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    margin-top: 30px;
+}
+
+.cardContent .cardBtn:hover{
+    background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+
+/*Estilos contato.html*/
+
+/*Estilos linguagem1.html*/
