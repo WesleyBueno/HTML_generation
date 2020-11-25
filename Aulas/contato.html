@@ -4,40 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
 <body>
 
 
-    <hr>
-        |<a href="index.html">Home</a>|
-        <a href="linguagem1.html">Html</a>|
-        <a href="contato.html">Contato</a>|    
-    <hr>
+    <div class="nav">
+        <div class="logo">
+            <h4>{Máquina Dev}</h4>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="linguagem1.html">Html</a>
+            <a href="contato.html"  class="mainlink">Contato</a>
+        </div>
+    </div>
 
-    <h1>Entre com contato comigo</h1>
+    <h1 class="center">Entre com contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto</label> <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="containerForm">
+
+        <div class="form">
+            <h2>Mande uma mensagem</h2>
+            <form>
+                <label for="nome">Nome</label> <br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id='txtNome'></div>
+                
+                <br>
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id='txtEmail'></div>
+                <br>
+                <label for="assunto">Assunto</label> <br>
+                <textarea name="assunto" id="assunto" cols="30" rows="5" onkeyup='validaAssunto()'></textarea>
+                <div id='txtAssunto'></div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+
+        <div class="ml-50">
+            <p>Av. Paulista, 1000</p>
+            <p>São Paulo - SP</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1032405768356!2d-46.65210952305571!3d-23.56473529926495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1605892430328!5m2!1spt-BR!2sbr"
+                width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
+        </div>
+    </div>
+
     
-    <h2>Endereço</h2>
 
-    <p>Av. Paulista, 1000</p>
-    <p>São Paulo - SP</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1032405768356!2d-46.65210952305571!3d-23.56473529926495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1605892430328!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+    <script src="Assets/js/script.js"></script>
 </body>
 </html>

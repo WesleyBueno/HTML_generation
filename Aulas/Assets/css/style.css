@@ -2,7 +2,7 @@
 
 html,body{
     background-color:  rgb(255, 248, 219);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
@@ -152,7 +152,7 @@ html,body{
     width: 360px;
     background: #fff;
     box-shadow: 0 10px 22px rgba(0,0, 0,0.10), 0 10px 10px rgba(0,0, 0,0.10);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 10%;
 }
 
@@ -205,6 +205,8 @@ html,body{
 }
 
 .cardContent p{
+    display: flex;
+    flex-direction: row;
     line-height: 30px;
     opacity: 0.6;
 }
@@ -237,5 +239,108 @@ html,body{
 
 
 /*Estilos contato.html*/
+.center{
+    text-align: center;
+}
+
+.ml-50{
+
+    margin-left: 50px;
+}
+.containerForm{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 191, 116);
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+}
+
+.form h2{
+    text-align: center;
+    color: rgb(83, 66, 66);
+}
+
+.form label{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(54, 43, 43);
+    
+}
+
+.form input{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #f8ecc6;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.form input:focus{
+    width: 400px;
+}
+
+.form textarea {
+    font-size: 17px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #f8ecc6;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.form textarea:focus{
+    width: 400px;
+    height: 100px;
+}
+
+.form button{
+    margin-left: 130px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #f5d7bf;
+    color:  rgb(54, 43, 43) ;
+    font-family: 'Poppins', sans-serif ;
+    transition: 0.3s ease;
+}
+
+.form button:hover{
+    background-color: #f8a662;
+}
+
+#txtEmail{
+    margin-left: 30px
+}
+
+#txtNome{
+    margin-left: 30px
+}
+
+#txtAssunto{
+    margin-left: 30px
+}
+
 
 /*Estilos linguagem1.html*/
