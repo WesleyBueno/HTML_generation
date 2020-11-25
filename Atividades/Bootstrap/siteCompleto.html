@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Be Tech</title>
+</head>
+
+<body>
+
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Be.Tech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Carroseul-->
+    <div style="background-color: #000000">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="Assets/img/1.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Assets/img/2.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Assets/img/3.png" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!--Jumbotron fluid-->
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Be.Tech</h1>
+                <p class="lead">Seja o futuro, venha para o desenvolvimento tecnologico.</p>
+            </div>
+        </div>
+
+        <!--Card columns-->
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="Assets/img/Turma (1).gif" alt="Imagem de capa do card">
+                    <div class="card-body" style="background-color: rgb(218, 228, 228); ">
+                        <h5 class="card-title">Venha para a Generation</h5>
+                        <p class="card-text">Seja Alumi da Generation Brasil</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="Assets/img/Turma.gif" alt="Imagem de capa do card">
+                    <div class="card-body" style="background-color: rgb(218, 228, 228);">
+                        <h5 class="card-title">Turma 11</h5>
+                        <p class="card-text">Nosso lema é "Foguete não tem ré"</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="Assets/img/Turma (2).gif" alt="Imagem de capa do card">
+                    <div class="card-body" style="background-color: rgb(218, 228, 228);">
+                        <h5 class="card-title">Full Stack Junior</h5>
+                        <p class="card-text">HTML, CSS, Java, JavaScript, Mysql e muito mais.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Formulário de contato-->
+
+            <div class="row mb-5">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <h4 class="text-center" style="color: white; padding-top: 10px;">
+                Entre em contato com a gente
+            </h4>
+
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" style="color: white">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1" style="color: white">Assunto</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group d-flex justify-content-end">
+                            <button class="btn btn-outline-light">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
+                        width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        
+    
+
+
+
+
+    <!--/Formulário de contato-->
+
+    <!--Rodapé-->
+    <hr>
+    <footer>
+
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">
+
+
+                <a href="https://www.linkedin.com/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Intagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    Todos os direitos reservados: Wesley Bueno &copy
+                </p>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <!--/Rodapé-->
+    </div>
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
