@@ -1,0 +1,77 @@
+
+
+.container{
+    background-color: rgb(255, 253, 245);
+}
+
+.Logo{
+    display: flex;
+    flex-flow: column;
+}
+
+.Logo h1{
+    font-size: 100px;
+    padding-top: 50px;
+    color: rgb(11, 148, 68);
+}
+
+.Logo img{
+    width: 500px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+.Logo p{
+    color: rgb(153, 145, 145);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Sobre h2{
+    font-size: 20px;
+    color: rgb(53, 43, 43);
+    flex-flow: row;
+}
+
+.Ct{
+    margin-top: 30px;
+}
+
+.Ct h2{
+    font-size: 20px;
+}
+
+.Ct span{
+    color: rgb(11, 156, 48);
+}
+
+.Reinos{
+    margin-top: 30px;
+}
+
+.Reinos h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Ex{
+    margin-top: 20px;
+}
+
+.Ex h2{
+    font-size: 20px;
+}
+.container form input{
+    width: 50px;
+}
+
+
+.tm-social{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+
+.p-30{
+    padding: 30px;
+}
