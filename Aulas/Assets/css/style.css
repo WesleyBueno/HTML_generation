@@ -40,7 +40,7 @@ html,body{
 }
 
 .nav .links .mainlink{
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .nav h4{
@@ -53,7 +53,7 @@ html,body{
 
 .landing{
     display: flex;
-    flex-direction: row;
+    flex-flow: nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw 0 10 vw;
@@ -74,7 +74,7 @@ html,body{
 }
 
 .landingImage img{
-    width: 28vw;
+    width: 26vw;
     margin-right: 20px;
 }
 
@@ -105,9 +105,9 @@ html,body{
 
 .videoText h5{
     text-align: center;
-    top: 20px;
+    top: 10px;
     position: relative;
-    color: rgb(255, 241, 236);
+    color: rgb(58, 49, 45);
 }
 
 .videoText{
@@ -156,19 +156,30 @@ html,body{
     border-radius: 10%;
 }
 
+
 .infoCards .one .cardoneImg{
     width: 180px;
     position: absolute;
     top: -40px;
     right: -40px;
-    
+    transition: 0.4s;
 }
+
+.infoCards .one:hover .cardoneImg{
+    transform: scale(1.1);
+}
+
 
 .infoCards .two .cardtwoImg{
     width: 180px;
     position: absolute;
     top: -40px;
     right: -40px;
+    transition: 0.4s;
+}
+
+.infoCards .two:hover .cardtwoImg{
+    transform: scale(1.1);
 }
 
 .infoCards .three .cardthreeImg{
@@ -176,6 +187,11 @@ html,body{
     position: absolute;
     top: -40px;
     right: -40px;
+    transition: 0.4s;
+}
+
+.infoCards .three:hover .cardthreeImg{
+    transform: scale(1.1);
 }
 
 .cardbgone{
@@ -241,11 +257,34 @@ html,body{
 /*Estilos contato.html*/
 .center{
     text-align: center;
+    font-size: 20px;
 }
 
-.ml-50{
-
+.endereco{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 191, 116);
+    width: 500px;
+    height: 350px;
+    border-radius: 60px;
     margin-left: 50px;
+    box-shadow: 0 19px 38px rgba(0, 0,0,0.30);
+}
+.containerEnd{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.endereco{
+    text-align: center;
+}
+
+.endereco iframe{
+    margin-top: 50px;
 }
 .containerForm{
     margin-top: 100px;
@@ -253,6 +292,7 @@ html,body{
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    margin-left: 40px;
 }
 
 .form{
@@ -260,8 +300,11 @@ html,body{
     background-color: rgb(241, 191, 116);
     width: 500px;
     height: 500px;
-    border-radius: 20%;
+    border-radius: 60px;
+    box-shadow: 0 19px 38px rgba(0, 0,0,0.30);
+    margin-bottom: 50px;
 }
+
 
 .form h2{
     text-align: center;
@@ -276,28 +319,25 @@ html,body{
 }
 
 .form input{
-    margin-left: 30px;
-    width: 30px;
+    
+    margin-left: 40px;
+    width: 400px;
     height: 30px;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #f8ecc6;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s ease-in-out;
 }
 
-.form input:focus{
-    width: 400px;
-}
+
 
 .form textarea {
     font-size: 17px;
-    margin-left: 30px;
-    width: 30px;
-    height: 30px;
+    margin-left: 40px;
+    width: 400px;
+    height: 100px;
     border: none;
     outline: none;
     border-radius: 20px;
@@ -305,12 +345,10 @@ html,body{
     font-family: 'Poppins', sans-serif;
     -webkit-transition: width .35s ease-in-out;
     transition: width .35s ease-in-out;
+    resize: none;
 }
 
-.form textarea:focus{
-    width: 400px;
-    height: 100px;
-}
+
 
 .form button{
     margin-left: 130px;
@@ -320,7 +358,7 @@ html,body{
     height: 50px;
     width: 200px;
     border-radius: 30px;
-    background-color: #f5d7bf;
+    background-color:  #f8ecc6;
     color:  rgb(54, 43, 43) ;
     font-family: 'Poppins', sans-serif ;
     transition: 0.3s ease;
@@ -331,14 +369,17 @@ html,body{
 }
 
 #txtEmail{
+    font-size: 14px;
     margin-left: 30px
 }
 
 #txtNome{
+    font-size: 14px;
     margin-left: 30px
 }
 
 #txtAssunto{
+    font-size: 14px;
     margin-left: 30px
 }
 
